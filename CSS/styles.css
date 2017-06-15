@@ -1,0 +1,337 @@
+body{
+margin: 0;
+font-family: 'Handlee', Open Sans;
+}
+.container-fluid {
+  padding-top: 0;
+}
+
+
+/*-----NAV BAR-----*/
+
+/*-----END NAV BAR-----*/
+
+/*-------MEDIA, OVERLAY AND TEXT----------*/
+.media{
+padding: 0;
+height: 850px;
+width:100%;
+background-image: url(../images/landing.jpg);
+ background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+margin-top: 70px;
+}
+.media2{
+padding: 0;
+height: 600px;
+width:100%;
+background-image: url(../images/foodsBg.jpg);
+ background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+}
+.media3{
+padding: 0;
+height: 300px;
+width:100%;
+background-image: url(../images/subscribe.jpg);
+ background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+}
+.overlay{
+padding: 0;
+margin: auto;
+width: 100%;
+height: 850px;
+background: black;
+background:rgba(0,0,0,0.0);
+}
+
+.header{
+margin-top: 3%;
+text-align: center;
+font-family: 'Handlee', Open Sans;
+color: white;
+font-size: 60px;
+}
+.logo{
+margin-top: 4%;
+text-align: center;
+}
+.men{
+margin-top: 20px;
+margin-left: 20px;
+background-color: transparent;
+height: 50px;
+width: 75px;
+}
+/*-------END MEDIA, OVERLAY AND TEXT----------*/
+
+.bg-1{
+padding: 0;
+}
+.bg-10{
+padding: 0;
+}
+.bg-00{
+background-color:#F15A29;
+}
+
+.happy{
+height: 119px;
+width:300px;
+}
+
+.overlay-mini {
+position: absolute;
+bottom: 0;
+right: 0;
+background:rgba(0,0,0,0.0);
+overflow: hidden;
+width: 100%;
+height: 100%;
+transition: .5s ease;
+}
+
+.bg-1:hover .overlay-mini {
+position: absolute;
+bottom: 0;
+right: 0;
+background:rgba(250,250,250,0.5);
+overflow: hidden;
+width: 100%;
+height: 100%;
+transition: .5s ease;
+}
+.bg-1:hover .text {
+color: #000000;
+}
+
+.text {
+color: white;
+font-size: 40px;
+font-family: 'Handlee', Open Sans;
+padding: 16px 32px;
+white-space: nowrap;
+position: absolute;
+overflow: hidden;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+}
+.textt {
+text-align: center;
+margin-top: 2%;
+color: #ffffff;
+}
+#text1{
+padding: 5%;
+text-align: left;
+}
+#text2{
+padding: 5%;
+text-align: right;
+}
+#text3{
+padding: 5%;
+text-align: center;
+}
+
+.fasts{
+margin-bottom: 10%;
+margin-left: 10%;
+margin-right: 30%;
+margin-top: 10%;
+padding:0;
+border-color: transparent;
+border-style: solid;
+border-width: 5px;
+border-radius: 5px;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.cust{
+width: 80%;
+margin-top: 10%;
+margin-bottom: 10%;
+margin-left: 10%;
+margin-right: 10%;
+border-color: transparent;
+border-style: solid;
+border-width: 5px;
+border-radius: 5px;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.party{
+height: 400px;
+width: 80%;
+margin-top: 100px;
+margin-bottom: 100px;
+margin-left: 10%;
+margin-right: 10%;
+background-color: #ffffff;
+}
+.partyhead{
+height: 50px;
+width: 100%;
+background-color: #ccc;
+}
+.customers{
+padding: 10%;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.mail{
+text-align: center;
+height: 200px;
+width: 80%;
+margin-top: 20px;
+margin-bottom: 30px;
+margin-left: 10%;
+margin-right: 10%;
+background-color: transparent;
+}
+.formStyle {
+margin: 20px;
+background:rgba(250,250,250,0.5);
+padding: 6px;
+width: 40%;
+margin-bottom: 20px;
+border-bottom-width: 1px;
+border-bottom-style: none;
+border-bottom-color: #ecf0f1;
+border-top-style: none;
+border-right-style: none;
+border-left-style: none;
+font-size: 28px;
+font-weight: 100;
+color: #ffffff;
+border-radius: 5px;
+}
+
+.formButton {
+margin: 20px;
+background-color:#F15A29;
+display:inline-block;
+color:#ffffff;
+font-size:28px;
+font-weight: 500;
+padding:6px 50px;
+text-decoration:none;
+border-radius: 5px;
+}
+
+.formButton:hover {
+background-color: #27ae60;
+color:#ffffff;
+}
+
+.formButton:active {
+position:relative;
+top:3px;
+}
+input:focus {
+outline: none;
+}
+
+::-webkit-input-placeholder {
+color: #ecf0f1;
+}
+
+:-moz-placeholder {
+color: #ecf0f1;
+}
+
+::-moz-placeholder
+color: #ecf0f1;
+}
+
+:-ms-input-placeholder {
+color: #ecf0f1;
+}
+.footer{
+padding: 0;
+height: 300px;
+width:100%;
+background-color:#F15A29;
+}
+.social{
+text-align: center;
+margin-top: 3%;
+color: #ffffff;
+}
+
+/*-----Clickable menu------*/
+.overlayMenu {
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: #F15A29;
+overflow-x: hidden;
+transition: 0.5s;
+}
+
+.overlay-content {
+position: relative;
+top: 25%;
+width: 100%;
+text-align: center;
+margin-top: 30px;
+}
+
+.overlayMenu a {
+padding: 8px;
+text-decoration: none;
+font-size: 36px;
+color: #000000;
+display: block;
+transition: 0.3s;
+}
+
+.overlayMenu a:hover, .overlayMenu a:focus {
+color: #f1f1f1;
+}
+
+.overlayMenu .closebtn {
+position: absolute;
+top: 20px;
+right: 45px;
+font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+.overlayMenu a {font-size: 20px}
+.overlayMenu .closebtn {
+font-size: 40px;
+top: 15px;
+right: 35px;
+}
+}
+
+/*---BUTTONS-----*/
+.button {
+border: none;
+color: #F15A29;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 18px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 5px;
+}
+
+.button1 {
+background-color: white;
+color: #F15A29;
+border: 2px solid #F15A29;
+}
