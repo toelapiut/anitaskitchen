@@ -1,0 +1,160 @@
+.head{
+  background-image: url(../images/backgrounds/landing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  height:500px;
+}
+/*.top{
+  margin:  auto;
+  text-align: center;
+}*/
+.main{
+  margin-right: 0px;
+padding-right: 0px;
+}
+.al{
+  width: 20px;
+}
+.row{
+  text-align: right;
+}
+
+#logos{
+  text-align: center ;
+  display: block;
+  margin-top: 100px;
+  width:auto;
+  height: auto;
+}
+.pic{
+  text-align: center;
+}
+.glyphicn{
+  color: #F15A29;
+  padding: 10px 20px 10px 20px;
+  background-color: white;
+  border-style: solid;
+  border-color: #F15A29;
+}
+.glyphic{
+  color: #F15A29
+}
+.ken{
+  background-image: url(../images/backgrounds/subscribe.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+.rest{
+  color: white;
+}
+.cc{
+  padding-top: 30px;
+  margin: 10px auto;
+  margin-top: 100px;
+}
+#subs{
+  background-color: #F15A29;
+  color: white;
+  border-style: none;
+}
+#email{
+  opacity: 0.5;
+  border-style: none;
+}
+.break{
+  background-image: url(../images/foodtop/breakfast.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  color: white;
+  text-align:center;
+  padding: 0;
+
+}
+.break:hover{
+  background-color: grey;
+  opacity:0.5;
+  color: black;
+}
+.lunch{
+  background-image: url(../images/foodtop/lunch.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  color: white;
+  text-align:center;
+  padding: 0;
+}
+.lunch:hover{
+  background-color: grey;
+  opacity:0.5;
+  color: black;
+}
+.dinner{
+  background-image: url(../images/foodtop/dinner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  color: white;
+  text-align:center;
+  padding: 0;
+}
+.dinner:hover{
+  background-color: grey;
+  opacity:0.5;
+  color: black;
+}
+#happy{
+  background-color: grey;
+  font-size: 55px;
+  /*height: 100px;*/
+  color: white;
+  text-align:center;
+  padding-left: 0;
+}
+#happy:hover{
+  background-color: #F15A29;
+  color: black;
+}
+#party{
+  background-color: #F15A29;
+  font-size: 55px;
+  height: 100px;
+  color: white;
+  text-align:center;
+  padding-left: 0;
+}
+#party:hover{
+  background-color: grey;
+  color: black;
+}
+.toel{
+  background-image: url(../images/backgrounds/foodsBg.jpg);
+height: 300px;
+}
+.menu{
+  margin-left:200px;
+  margin-top: 15px;
+  height: 50px;
+}
+.customer{
+  margin-bottom: 50px;
+  text-align: center;
+}
+.don{
+  background-color: #F15A29;
+  height: 300px;
+
+}
+
+.leal{
+  text-align: center;
+  padding-top: 100px;
+}
+footer{
+  padding-top: 70px;
+}
